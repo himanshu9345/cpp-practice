@@ -24,9 +24,4 @@ int main() {
     cout<<myVector.back()<<endl;
     cout<<myVector.size()<<endl;
 
-
-
-
-
-
 }
