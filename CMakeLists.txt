@@ -1,2 +1,2 @@
 project(cpp-practice)
-add_executable(cpp-practice 3.arithmetic.cpp)
+add_executable(cpp-practice 5.arrays.cpp)
