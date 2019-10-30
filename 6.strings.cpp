@@ -23,4 +23,18 @@ int main() {
     cout<<animal2.compare(animal1)<<endl;
     cout<<animal1.compare(animal1)<<endl;
 
+    string animal3=animal1.assign(animal1);
+    cout<<animal1<<endl;
+    cout<<animal3<<endl;
+    cout<<animal3.find("og",2)<<endl;
+
+    string newAnimal=animal1.insert(0,"D");
+    cout<<newAnimal<<endl;
+
+    newAnimal=animal1.replace(0,1,"R");
+    cout<<newAnimal<<endl;
+
+    newAnimal=animal1.erase(0,1);
+    cout<<newAnimal<<endl;
+
 }
