@@ -1,2 +1,2 @@
 project(cpp-practice)
-add_executable(cpp-practice 5.arrays.cpp)
+add_executable(cpp-practice 6.strings.cpp)
